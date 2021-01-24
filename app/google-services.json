@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "482440344975",
+    "project_id": "get-and-set-data-of-empl-cd61a",
+    "storage_bucket": "get-and-set-data-of-empl-cd61a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482440344975:android:623171ce403701a4b907fa",
+        "android_client_info": {
+          "package_name": "com.get_set_data_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482440344975-ico7m6gbkm39jv6q8p6pge7o7a3t7bu4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.get_set_data_firebase",
+            "certificate_hash": "4c9a10ac02bf4b26de950b0eb36f76c04c3997e3"
+          }
+        },
+        {
+          "client_id": "482440344975-ocet79u3daash0qh25fiudns9rlvbrt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe61BqbIW4D4Q1tQ2phQxe-ogDi8HfrVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482440344975-ocet79u3daash0qh25fiudns9rlvbrt5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

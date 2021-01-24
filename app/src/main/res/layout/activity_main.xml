@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:hint="EmpNo"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:hint="Emp Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editText_1"
+        app:layout_constraintTop_toBottomOf="@+id/editText_1" />
+
+    <EditText
+        android:id="@+id/editText_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:hint="Emp Salary"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editText_2"
+        app:layout_constraintTop_toBottomOf="@+id/editText_2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="64dp"
+        android:text="Insert"
+
+        app:layout_constraintEnd_toEndOf="@+id/editText_3"
+        app:layout_constraintTop_toBottomOf="@+id/editText_3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="35dp"
+        android:text="TextView"
+        android:textSize="25dp"
+        android:textColor="@color/purple_200"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
